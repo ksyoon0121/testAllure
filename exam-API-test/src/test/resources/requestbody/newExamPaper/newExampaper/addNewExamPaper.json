@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "title": "{{title}}",
+  "type": "fixed",
+  "classify_id": "{{classification_id}}",
+  "classify_name": "{{classification_name}}",
+  "summary": "description",
+  "visible_range_vo": {
+    "visible_range_type": "all",
+    "departments_list": [],
+    "posts_list": [],
+    "groups_list": [],
+    "users_list": []
+  },
+  "access_token": "{{token}}"
+}

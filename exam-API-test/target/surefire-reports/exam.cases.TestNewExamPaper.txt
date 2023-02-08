@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: exam.cases.TestNewExamPaper
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 5.968 s <<< FAILURE! - in exam.cases.TestNewExamPaper
+setUp(exam.cases.TestNewExamPaper)  Time elapsed: 5.235 s  <<< FAILURE!
+java.lang.NullPointerException
+	at exam.cases.TestNewExamPaper.setUp(TestNewExamPaper.java:20)
+

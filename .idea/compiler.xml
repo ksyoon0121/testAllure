@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="API-test-core" />
+        <module name="exam-API-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--encding UTF-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-test-core" options="" />
+      <module name="Test2023" options="" />
+      <module name="exam-API-test" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="076294f7-65cb-47fc-8b96-16c86628d88a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2L82zSHZWlOAc9z1Dc7eezJBdwX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam-API-test/suite" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper/newExampaper" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lazy.config" />
+      <recent name="cn.kxy.setting.business" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exam-API-test/suite" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
+      <recent name="$PROJECT_DIR$/API-test-core/src/main/resources/url" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper/newExampaper" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestNewExamPaper.testAddNewExamPaper">
+    <configuration name="TestNewExamPaper.testAddExamPaper" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="exam-API-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam.cases" />
+      <option name="MAIN_CLASS_NAME" value="exam.cases.TestNewExamPaper" />
+      <option name="METHOD_NAME" value="testAddExamPaper" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNewExamPaper.testAddNewExamPaper" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="exam-API-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam.cases" />
+      <option name="MAIN_CLASS_NAME" value="exam.cases.TestNewExamPaper" />
+      <option name="METHOD_NAME" value="testAddNewExamPaper" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNewExamPaper.testGetNewExamPaper" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="exam-API-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam.cases" />
+      <option name="MAIN_CLASS_NAME" value="exam.cases.TestNewExamPaper" />
+      <option name="METHOD_NAME" value="testGetNewExamPaper" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/ksy/IdeaProjects/Test2023/exam-API-test/suite/exampaper.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="exam-API-test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/exam-API-test/suite/exampaper.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestNewExamPaper.testAddNewExamPaper" />
+        <item itemvalue="TestNG./Users/ksy/IdeaProjects/Test2023/exam-API-test/suite/exampaper.xml" />
+        <item itemvalue="TestNG.TestNewExamPaper.testGetNewExamPaper" />
+        <item itemvalue="TestNG.TestNewExamPaper.testAddExamPaper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="076294f7-65cb-47fc-8b96-16c86628d88a" name="Default Changelist" comment="" />
+      <created>1675238650795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675238650795</updated>
+      <workItem from="1675238652300" duration="1300000" />
+      <workItem from="1675394178988" duration="464000" />
+      <workItem from="1675396758504" duration="902000" />
+      <workItem from="1675405143145" duration="12986000" />
+      <workItem from="1675560123955" duration="83000" />
+      <workItem from="1675560215017" duration="9517000" />
+      <workItem from="1675667614837" duration="1574000" />
+      <workItem from="1675669202956" duration="295000" />
+      <workItem from="1675669560748" duration="1645000" />
+      <workItem from="1675672521604" duration="5660000" />
+      <workItem from="1675689238080" duration="2552000" />
+      <workItem from="1675724469405" duration="1854000" />
+      <workItem from="1675728581402" duration="15771000" />
+      <workItem from="1675757088617" duration="151000" />
+      <workItem from="1675757279274" duration="3421000" />
+      <workItem from="1675760828854" duration="3470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="41" key="#Project_Structure" timestamp="1675690059874">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="419" y="41" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1675690059874" />
+    <state x="216" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1675757229264">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="216" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1675757229264" />
+    <state x="763" y="286" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675676565516">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="763" y="286" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1675676565516" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1675826457604">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1675826457604" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1675826457603">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1675826457603" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1675826457602">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1675826457602" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1675826457603">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1675826457603" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1675757078365">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1675757078365" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1675757078365">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1675757078365" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1675757078364">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1675757078364" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1675757078365">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1675757078365" />
+    <state x="232" y="143" key="Maven.ArtifactSearchDialog" timestamp="1675749012756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="232" y="143" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1675749012756" />
+    <state x="174" y="63" key="SettingsEditor" timestamp="1675725272289">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="174" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1675725272289" />
+    <state x="417" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1675760828628">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="417" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1675760828628" />
+    <state x="379" y="228" width="683" height="486" key="find.popup" timestamp="1675690503936">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="379" y="228" width="683" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1675690503936" />
+    <state x="42" y="138" key="new project wizard" timestamp="1675650182077">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="42" y="138" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1675650182077" />
+    <state x="413" y="224" key="run.anything.popup" timestamp="1675757207396">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="413" y="224" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1675757207396" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/API-test-core/src/main/java/com/lazy/common/utils/ResourceFileUtil.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/API-test-core/src/main/java/cn/kxy/setting/business/ClassificationBusiness.java</url>
+          <line>24</line>
+          <properties class="cn.kxy.setting.business.ClassificationBusiness">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/API-test-core/src/main/java/cn/kxy/setting/business/ClassificationBusiness.java</url>
+          <line>31</line>
+          <properties class="cn.kxy.setting.business.ClassificationBusiness">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/API-test-core/src/main/java/cn/kxy/setting/business/ClassificationBusiness.java</url>
+          <line>16</line>
+          <properties class="cn.kxy.setting.business.ClassificationBusiness">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

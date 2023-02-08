@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>exam-API-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <aspectj.version>1.8.10</aspectj.version>
+        <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+<!--        用时间戳来区分报告的文件夹 -->
+
+    </properties>
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>API-test-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.18.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+             <plugins>
+<!--        allure用到surefire查找测试用例，所以这里还要在<plugins>中引用该插件-->
+                 <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <!-- 设置参数命令行  -->
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <systemProperties>
+                        <property>
+<!--                            设置了allure结果文件放置的路径-->
+                            <name>allure.results.directory</name>
+                            <value>${project.build.directory}/allure-results/${maven.build.timestamp}</value>
+                        </property>
+                        <property>
+                            <name>allure.link.issue.pattern</name>
+                            <value>https://example.org/issue/{}</value>
+                        </property>
+                    </systemProperties>
+                    <systemPropertyVariables>
+                        <env>T6</env>
+                        <loginMobile></loginMobile>
+                        <password></password>
+                        <token>01562607c09a840bebf002e5418d6e408</token>
+                    </systemPropertyVariables>
+                    <!--测试失败后，是否忽略并继续测试 -->
+                    <testFailureIgnore>false</testFailureIgnore>
+<!--                    如果测试类不带test，就得访问xml文件获取测试方法-->
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>suite/exampaper.xml</suiteXmlFile>-->
+<!--&lt;!&ndash;                        <suiteXmlFile>suite/itemBankExercise.xml</suiteXmlFile>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <suiteXmlFile>suite/newExamTask.xml</suiteXmlFile>&ndash;&gt;-->
+<!--                    </suiteXmlFiles>-->
+                </configuration>
+                 <dependencies>
+                     <dependency>
+                         <groupId>org.aspectj</groupId>
+                         <artifactId>aspectjweaver</artifactId>
+                         <version>${aspectj.version}</version>
+                     </dependency>
+                 </dependencies>
+            </plugin>
+            <!--              指定maven编译的jdk版本,如果不指定,maven3默认用jdk 1.5 maven2默认用jdk1.3 防止乱码）-->
+<!--            <plugin>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.1</version>-->
+<!--                <configuration>-->
+<!--                    <fork>true</fork>-->  <!-- 要使compilerVersion标签生效，还需要将fork设为true，用于明确表示编译版本配置的可用 -->
+<!--                </configuration>-->
+<!--            </plugin>-->
+
+        </plugins>
+    </build>
+
+</project>

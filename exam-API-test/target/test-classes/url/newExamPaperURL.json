@@ -1,0 +1,11 @@
+{
+  "addNewExamPaper": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/add",
+  "add2": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/info",
+  "add3": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/detail",
+  "add4": "/new-exam-api/v2/enterprises/{{enterprise_id}}/paper/{paper-id}/questionNum",
+  "getNewPaperList": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/list",
+  "saveFixedPaper": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/save-fixed-paper",
+  "deleteNewPaper": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/delete",
+  "updatePaperStatus": "/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/updatePaperStatus",
+  "copyPaper":"/new-exam-api/v2/enterprises/{enterprise-id}/paper/{paper-id}/copy"
+}
