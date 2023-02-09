@@ -30,6 +30,11 @@
             <version>1.2.73</version> <!--    里面有JSONPath-->
         </dependency>
         <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId><!--        json序列化异常时导入该依赖-->
             <artifactId>jackson-databind</artifactId>
             <version>2.13.3</version>
