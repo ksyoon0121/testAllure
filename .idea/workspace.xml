@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="076294f7-65cb-47fc-8b96-16c86628d88a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-API-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-API-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-API-test/target/test-classes/exam/cases/TestNewExamPaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/exam-API-test/target/test-classes/exam/cases/TestNewExamPaper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +45,22 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper/newExampaper" />
-      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper" />
-      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/exam-API-test/suite" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
+      <recent name="$PROJECT_DIR$/API-test-core/src/main/resources/url" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper/newExampaper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lazy.config" />
       <recent name="cn.kxy.setting.business" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exam-API-test/suite" />
-      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
-      <recent name="$PROJECT_DIR$/API-test-core/src/main/resources/url" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper/newExampaper" />
       <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources/requestbody/newExamPaper" />
+      <recent name="$PROJECT_DIR$/exam-API-test/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/ksy/IdeaProjects/Test2023/exam-API-test/suite/exampaper.xml">
@@ -165,7 +164,7 @@
       <workItem from="1675757279274" duration="3421000" />
       <workItem from="1675760828854" duration="3470000" />
       <workItem from="1675913487496" duration="859000" />
-      <workItem from="1675917356280" duration="4238000" />
+      <workItem from="1675917356280" duration="6217000" />
     </task>
     <servers />
   </component>
@@ -185,22 +184,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="763" y="286" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1675676565516" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1675928927072">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1675933114514">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1675928927072" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1675928927072">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1675933114514" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1675933114513">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1675928927072" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1675928927072">
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1675933114513" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1675933114513">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1675928927072" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1675928927072">
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1675933114513" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1675933114514">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1675928927072" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1675933114514" />
     <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1675757078365">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
