@@ -32,7 +32,7 @@ rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
 rm -f $TOMCAT_APP_PATH/webapps/testAllure.war
 
 # 复制新的工程
-cp $PROJ_PATH/testAllure/target/testAllure.war $TOMCAT_APP_PATH/webapps/
+cp $PROJ_PATH/testAllure/exam-API-test/target/exam-API-test-1.0-SNAPSHOT.war $TOMCAT_APP_PATH/webapps/testAllure.war
 
 cd $TOMCAT_APP_PATH/webapps/
 mv testAllure.war ROOT.war
