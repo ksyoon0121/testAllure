@@ -43,6 +43,7 @@ public class TestNewExamPaper {
         String response = newExamPaper.addNewPaper(paperTitle);
         paperId = JSONPath.read(response, "$.data").toString();
         Assert.assertEquals("true", JSONPath.read(response,"$.success").toString());
+        System.out.println("TEST JENKINS");
         System.out.println("paper title: " + paperTitle);
         System.out.println(test);
         System.out.println("paper ID: " + paperId);
