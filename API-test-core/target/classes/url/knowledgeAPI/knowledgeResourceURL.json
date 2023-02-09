@@ -1,4 +1,0 @@
-{
-  "getMaterialList": "/knowledge-api/course/resource/getList/back-end",
-  "getCourseList": "/knowledge-api/course/queryCourseByPage_fast"
-}

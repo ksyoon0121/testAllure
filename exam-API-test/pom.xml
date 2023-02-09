@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>exam-API-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,6 +98,14 @@
 <!--                    要使compilerVersion标签生效，还需要将fork设为true，用于明确表示编译版本配置的可用-->
                 </configuration>
             </plugin>
+                 <plugin>
+                     <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-war-plugin</artifactId>
+                     <version>3.3.1</version>
+                     <configuration>
+                         <failOnMissingWebXml>false</failOnMissingWebXml>
+                     </configuration>
+                 </plugin>
 
         </plugins>
     </build>
