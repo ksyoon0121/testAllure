@@ -86,14 +86,15 @@
                      </dependency>
                  </dependencies>
             </plugin>
-            <!--              指定maven编译的jdk版本,如果不指定,maven3默认用jdk 1.5 maven2默认用jdk1.3 防止乱码）-->
-<!--            <plugin>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <version>3.1</version>-->
-<!--                <configuration>-->
-<!--                    <fork>true</fork>-->  <!-- 要使compilerVersion标签生效，还需要将fork设为true，用于明确表示编译版本配置的可用 -->
-<!--                </configuration>-->
-<!--            </plugin>-->
+<!--                          指定maven编译的jdk版本,如果不指定,maven3默认用jdk 1.5 maven2默认用jdk1.3 防止乱码）-->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <fork>true</fork>
+<!--                    要使compilerVersion标签生效，还需要将fork设为true，用于明确表示编译版本配置的可用-->
+                </configuration>
+            </plugin>
 
         </plugins>
     </build>
