@@ -18,6 +18,7 @@ public class NewExamPaper {
     }
 
     public String addNewPaper(String title) {
+        System.out.println(title);
         String addNewPaperURL=RestAssuredRequestHandler.buildURL(newExamUrl.getString("addNewExamPaper"), EnterpriseData.getEnterpriseId());
         JSONObject requestBody=ResourceFileUtil.setJsonBodyValue(new ResourceFileUtil().parseJsonFile(requestBodyFolder,"addNewExamPaper.json"),
                 "$.title", title,

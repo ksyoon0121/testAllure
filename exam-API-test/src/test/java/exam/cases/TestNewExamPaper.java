@@ -33,7 +33,6 @@ public class TestNewExamPaper {
     public Object[][] excelDataProvider(Method method) {
         System.out.println(method.getDeclaringClass().getName());
         System.out.println(method.getName());
-
         Object[][] testData = DataDrivenLoader.loadExcelData("TestNewExamPaperData.xlsx", method.getDeclaringClass().getName(), method.getName());
         return testData;
     }
