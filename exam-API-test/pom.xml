@@ -57,7 +57,9 @@
                         <property>
 <!--                            设置了allure结果文件放置的路径-->
                             <name>allure.results.directory</name>
-                            <value>${project.build.directory}/allure-results/${maven.build.timestamp}</value>
+                            <value>${project.build.directory}/allure-results</value>
+<!--                            <value>${project.build.directory}/allure-results/${maven.build.timestamp}</value>-->
+
                         </property>
                         <property>
                             <name>allure.link.issue.pattern</name>
