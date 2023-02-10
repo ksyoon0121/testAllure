@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="076294f7-65cb-47fc-8b96-16c86628d88a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/0e67d324-70be-4035-ac0d-6c445581cd1c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/22180340-b751-4aaa-8021-88da46816975-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/58fb66b0-6a79-4362-9e37-6034d3d96a29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/62ae7b80-d1f6-4ea4-be37-edd8b7477344-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/6a4c3fbb-e175-4f20-9fdb-2bd83f1f0706-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/d642fff6-7eae-4b03-89f6-3d906f23713d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-API-test/allure-results/f4e4a27d-720e-490f-be4f-30a71bfa37a7-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +171,7 @@
       <workItem from="1675760828854" duration="3470000" />
       <workItem from="1675913487496" duration="859000" />
       <workItem from="1675917356280" duration="10720000" />
+      <workItem from="1676012417187" duration="654000" />
     </task>
     <servers />
   </component>
