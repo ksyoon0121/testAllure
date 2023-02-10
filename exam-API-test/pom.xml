@@ -70,7 +70,7 @@
                         <env>T6</env>
                         <loginMobile></loginMobile>
                         <password></password>
-                        <token>0c8b53516db548219b16c4aaf62ad8b7</token>
+                        <token>bbbea2d3170f4925a40df63df6cbbbac</token>
                     </systemPropertyVariables>
                     <!--测试失败后，是否忽略并继续测试 -->
                     <testFailureIgnore>false</testFailureIgnore>
